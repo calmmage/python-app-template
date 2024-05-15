@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "project-name"
 version = "0.0.1"
-# Template Version: 0.2.4 # update python version because of langchain
-# Add scheduled job example
+# Template Version: 0.0.1
+# first version of the template
 description = ""
 authors = ["Petr Lavrov <calmmage@gmail.com>"]
 readme = "README.md"
@@ -11,6 +11,7 @@ readme = "README.md"
 python = ">=3.8.1,<4.0"
 # for stability, use frozen-app-name branch
 calmlib = { git = "https://github.com/calmmage/calmlib.git", branch = "main" }
+calmapp = { git = "https://github.com/calmmage/calmapp.git", branch = "main" }
 #calmmage = { git = "https://github.com/calmmage/calmmage.git", branch = "main" }
 pytest = "*"
 # logging
